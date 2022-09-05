@@ -2,27 +2,27 @@
 
 ## 0x00.Table of contents
 
-* [0x01 Introduction](#0x01-Introduction)
-* [0x02 Environment](#0x02-Environment)
-* [0x03 Installation](#0x03-Installation)
-* [0x04 Testing](#0x04-Testing)
-* [0x05 Usage](#0x05-Usage)
-* [0x06 Authors](#0x06-Authors)
+* 0x01 Introduction
+* 0x02 Environment
+* 0x03 Installation
+* 0x04 Testing
+* 0x05 Usage
+* 0x06 Authors
 
-## 0x01 Introduction
+### 0x01 Introduction
 
-Team project to build a clone of [AirBnB](https://www.airbnb.com/).
+Team project to build a clone of AirBnB.
 
 The console is a command interpreter to manage objects abstraction between objects and how they are stored.
 
-To see the fundamental background of the project visit the [Wiki](https://github.com/ralexrivero/AirBnB_clone/wiki).
+To see the fundamental background of the project visit the Wiki.
 
 The console will perform the following tasks:
 
-* create a new object
-* retrive an object from a file
-* do operations on objects
-* destroy an object
+- create a new object
+- retrive an object from a file
+- do operations on objects
+- destroy an object
 
 ### Storage
 
@@ -58,11 +58,9 @@ In interactive mode
 ```bash
 $ ./console.py
 (hbnb) help
-
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-
 (hbnb)
 (hbnb)
 (hbnb) quit
@@ -74,7 +72,6 @@ in Non-interactive mode
 ```bash
 $ echo "help" | ./console.py
 (hbnb)
-
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
@@ -85,7 +82,6 @@ help
 $
 $ cat test_help | ./console.py
 (hbnb)
-
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
@@ -146,3 +142,21 @@ To run the tests in non-interactive mode, and discover all the test, you can use
 python3 -m unittest discover tests
 ```
 
+## Authors
+<details>
+    <summary>Ayinla Abel</summary>
+    <ul>
+    <li><a href="https://www.github.com/ayinlaabel">Github</a></li>
+    <li><a href="https://www.twitter.com/kraneabel">Twitter</a></li>
+    <li><a href="mailto:kraneabel@gmail.com">e-mail</a></li>
+    </ul>
+</details>
+
+<details>
+   <summary>Jolade Sarah Okunlade</summary>
+   <ul>
+   <li><a href="https://www.github.com/jolah1">Github</a></li>
+   <li><a href="https://www.twitter.com/jolah99">Twitter</a></li>
+   <li><a href="jokunlade@gmail.com">e-mail</a></li>
+   </ul>
+</details>
