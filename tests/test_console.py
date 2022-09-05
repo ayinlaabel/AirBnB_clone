@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""Defines unittests for console.py.
+"""Defines unittests for console.py.
+
 Unittest classes:
     TestHBNBCommand_prompting
     TestHBNBCommand_help
@@ -130,8 +131,7 @@ class TestHBNBCommand_create(unittest.TestCase):
     @classmethod
     def tearDown(self):
         try:
-
-           os.remove("file.json")
+            os.remove("file.json")
         except IOError:
             pass
         try:
@@ -894,7 +894,7 @@ class TestHBNBCommand_update(unittest.TestCase):
 
     def test_update_missing_id_space_notation(self):
         correct = "** instance id missing **"
-       with patch("sys.stdout", new=StringIO()) as output:
+        with patch("sys.stdout", new=StringIO()) as output:
             self.assertFalse(HBNBCommand().onecmd("update BaseModel"))
             self.assertEqual(correct, output.getvalue().strip())
         with patch("sys.stdout", new=StringIO()) as output:
